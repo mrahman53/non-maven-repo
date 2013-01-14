@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86623" started-at="2013-01-14T01:02:27Z" finished-at="2013-01-14T01:03:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86623" started-at="2013-01-14T01:02:27Z" finished-at="2013-01-14T01:03:53Z">
+      <class name="com.pnt.webdriver.WebDriverAppTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pnt.webdriver.WebDriverAppTest@5117f31e]" name="beforeMethod" is-config="true" duration-ms="38904" started-at="2013-01-13T20:02:27Z" finished-at="2013-01-13T20:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.pnt.webdriver.WebDriverAppTest@5117f31e]" name="f" duration-ms="46955" started-at="2013-01-13T20:03:05Z" finished-at="2013-01-13T20:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pnt.webdriver.WebDriverAppTest@5117f31e]" name="afterMethod" is-config="true" duration-ms="652" started-at="2013-01-13T20:03:53Z" finished-at="2013-01-13T20:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pnt.webdriver.WebDriverAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

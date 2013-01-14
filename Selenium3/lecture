@@ -1,0 +1,63 @@
+
+   
+   Selenium Rc
+
+  Interface      Concrete class
+  Selenium   --> DefaultSelenium
+                                    2010
+
+  WebDriver/Selenium-2
+  
+  Interface        Concrete class
+  WebDriver -->   FirefoxDriver,SafariDriver,ChromeDriver,InternetExplorerDriver and HtmlUnitDriver
+
+
+
+
+
+
+
+                
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
