@@ -29,11 +29,11 @@ public class WebDriverAppTest {
   
   @Test
   public void f() throws InterruptedException {
-	  //driver.switchTo().alert().dismiss();
+	  
 	  driver.findElement(By.xpath(".//*[@id='nav-us']/span")).click();
 	  System.out.println("URL : " + driver.getCurrentUrl());
 	  System.out.println("Title : " +  driver.getTitle());
-	  //System.out.println("Page Source : " + driver.getPageSource());
+	  
 	  //WebDriver way to compare text.
 	 // driver.findElement(By.xpath(".//*[@id='cnn_mtt1rgtarea']/ul/li[8]/a")).getText().compareTo("Arizona Powerball winner claims nearly $200 million prize");
 	 //Using TestNG method to verify text.
@@ -58,7 +58,8 @@ public class WebDriverAppTest {
 
   @AfterMethod
   public void afterMethod() {
-	  driver.quit();
+	  driver.close();
+	  //driver.quit();
 	  
 	  
   }
